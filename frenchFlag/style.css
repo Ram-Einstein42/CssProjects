@@ -1,0 +1,28 @@
+:root {
+    --red: #ED2938;
+    --white: #fff;
+    --blue: #002495;
+    --flag-height: 150px;
+}
+ 
+.flag-france {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3/2);
+}
+
+
+.flag-france {
+    display: flex;
+}
+
+.stripe {
+    flex-grow: 1;
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.blue {
+    background-color: var(--blue);
+}
